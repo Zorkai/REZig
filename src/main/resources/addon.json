@@ -1,0 +1,10 @@
+{
+  "uuid": "%uuid%",
+  "name": "RE:Zig",
+  "mainClass": "tech.zorkai.rezig.REZig",
+  "description": "Alpha version of RE:Zig",
+  "version": 1,
+  "author": "Zorkai",
+  "category": 1,
+  "icon": "https://i.imgur.com/W0WFEW4.jpg"
+}

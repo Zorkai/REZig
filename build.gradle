@@ -1,0 +1,93 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            name = "forge"
+            url = "https://files.minecraftforge.net/maven"
+        }
+    }
+
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
+    }
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = "1.0"
+group= "tech.zorkai.rezig"
+archivesBaseName = "REZig"
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+minecraft {
+    version = "1.8.9-11.15.1.1722"
+    runDir = "run"
+    setRunDir("run")
+    mappings = "stable_20"
+    makeObfSourceJar = false
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.jagrosh:DiscordIPC:0.4'
+}
+
+configurations {
+    embed
+    compile.extendsFrom(embed)
+}
+
+processResources {
+    // this will ensure that this task is redone when the versions change.
+    inputs.property 'version', project.version
+    inputs.property 'mcversion', project.minecraft.version
+
+    // replace stuff in mcmod.info, nothing else
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+
+        // replace version and mcversion
+        expand 'version': project.version, 'mcversion': project.minecraft.version
+    }
+
+    // copy everything else, thats not the mcmod.info
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+
+
+shadowJar {
+    dependencies {
+        include(dependency('com.jagrosh:DiscordIPC'))
+        include(dependency('org.json:json'))
+        include(dependency('org.slf4j:slf4j-api'))
+        include(dependency('org.scijava:native-lib-loader'))
+        include(dependency('com.kohlschutter.junixsocket:junixsocket-common'))
+        include(dependency('com.kohlschutter.junixsocket:junixsocket-native-common'))
+    }
+    exclude 'dummyThing'
+    exclude 'LICENSE.txt'
+    exclude 'net/labymod/**'
+    exclude 'mcmod.info'
+    exclude 'net/jpountz/**'
+    exclude 'assets/minecraft/labymod/**'
+    exclude 'BytecodeMethods.class'
+    classifier = 'release'
+}
+
+
+reobf {
+    shadowJar {
+        mappingType = 'NOTCH'
+        classpath = sourceSets.main.compileClasspath
+    }
+}
+
+build.dependsOn(shadowJar)
