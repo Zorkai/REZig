@@ -15,15 +15,12 @@ public class Games {
     static InputStream gameIconsStream = REZig.class.getResourceAsStream("/gameIcons.json");
     static JSONObject gameIconsObject = new JSONObject(new JSONTokener(gameIconsStream));
 
-
     public static String getGameName(String game){
-        gameNamesObject.getString(game);
-        return game;
+        return gameNamesObject.getString(game);
     }
 
     public static String getGameIcon(String game){
-        gameIconsObject.getString(game);
-        return game;
+        return gameIconsObject.getString(game);
     }
 
 }

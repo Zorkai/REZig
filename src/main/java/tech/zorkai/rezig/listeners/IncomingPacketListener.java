@@ -2,7 +2,6 @@ package tech.zorkai.rezig.listeners;
 
 import net.labymod.utils.Consumer;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.network.play.server.S3FPacketCustomPayload;
 import tech.zorkai.rezig.REZig;
 
