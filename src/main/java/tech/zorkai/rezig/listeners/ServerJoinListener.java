@@ -19,8 +19,8 @@ public class ServerJoinListener implements Consumer<ServerData> {
         boolean joinedRevive = serverData.getIp().equals("play.mcrevive.net");
         main.playingRevive = joinedRevive;
         if (joinedRevive) {
-            DiscordRPC.shouldOperate = true;
-            DiscordRPC.init();
+            main.discordRPC.shouldOperate = true;
+            main.discordRPC.init();
             Minecraft.getMinecraft().thePlayer.sendChatMessage("/whereami");
         }
     }

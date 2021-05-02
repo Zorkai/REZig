@@ -1,0 +1,122 @@
+{
+  "top_rank": {
+    "display": "&c&l⚡ Speed of Light"
+  },
+  "ranks": {
+    "Snail": {
+      "min_points": 0,
+      "max_points": 100,
+      "display": "&7Snail"
+    },
+    "Turtle": {
+      "min_points": 100,
+      "max_points": 1000,
+      "display": "&aTurtle"
+    },
+    "Jogger": {
+      "min_points": 1000,
+      "max_points": 3500,
+      "display": "&dJogger"
+    },
+    "Runner": {
+      "min_points": 3500,
+      "max_points": 10000,
+      "display": "&bRunner"
+    },
+    "Rabbit": {
+      "min_points": 10000,
+      "max_points": 20000,
+      "display": "&eRabbit"
+    },
+    "Kangaroo": {
+      "min_points": 20000,
+      "max_points": 35000,
+      "display": "&6Kangaroo"
+    },
+    "Speedster": {
+      "min_points": 35000,
+      "max_points": 60000,
+      "display": "&2Speedster"
+    },
+    "Blur": {
+      "min_points": 60000,
+      "max_points": 100000,
+      "display": "&9Blur"
+    },
+    "Cheetah": {
+      "min_points": 100000,
+      "max_points": 200000,
+      "display": "&5Cheetah"
+    },
+    "Flash": {
+      "min_points": 200000,
+      "max_points": 300000,
+      "display": "&c&lFlash"
+    },
+    "Speedy Gonzales": {
+      "min_points": 300000,
+      "max_points": 400000,
+      "display": "&d&lSpeedy Gonzales"
+    },
+    "Bolt": {
+      "min_points": 400000,
+      "max_points": 500000,
+      "display": "&f&lBolt"
+    },
+    "Forrest": {
+      "min_points": 500000,
+      "max_points": 600000,
+      "display": "&e&lForrest"
+    },
+    "Sonic": {
+      "min_points": 600000,
+      "max_points": 700000,
+      "display": "&9&lSonic"
+    },
+    "Falcon": {
+      "min_points": 700000,
+      "max_points": 800000,
+      "display": "&a&lFalcon"
+    },
+    "Road Runner": {
+      "min_points": 800000,
+      "max_points": 1000000,
+      "display": "&b&lRoad Runner"
+    },
+    "Basilisk": {
+      "min_points": 1000000,
+      "max_points": 1200000,
+      "display": "&2&lBasilisk"
+    },
+    "Sailfish": {
+      "min_points": 1200000,
+      "max_points": 1500000,
+      "display": "&5&lSailfish"
+    },
+    "Formula 1": {
+      "min_points": 1500000,
+      "max_points": 2000000,
+      "display": "&6&lFormula 1"
+    },
+    "Tornado": {
+      "min_points": 2000000,
+      "max_points": 2500000,
+      "display": "&7&lTornado"
+    },
+    "Jet": {
+      "min_points": 2500000,
+      "max_points": 3500000,
+      "display": "&e&lJet"
+    },
+    "Blackbird": {
+      "min_points": 3500000,
+      "max_points": 5000000,
+      "display": "&4&lBlackbird"
+    },
+    "Hyperspace": {
+      "min_points": 5000000,
+      "max_points": 7000000,
+      "display": "&1&lHyperspace"
+    }
+  }
+}

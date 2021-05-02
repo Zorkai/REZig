@@ -9,10 +9,10 @@ import java.time.OffsetDateTime;
 
 public class DiscordRPC {
 
-    public static boolean shouldOperate = true;
-    public static IPCClient rpcClient;
+    public boolean shouldOperate = true;
+    public IPCClient rpcClient;
 
-    public static void init() {
+    public void init() {
         IPCClient client = new IPCClient(833015588720345130L);
         client.setListener(new IPCListener() {
             @Override
@@ -27,7 +27,7 @@ public class DiscordRPC {
         }
     }
 
-    public static void updatePresence(String game, String icon) {
+    public void updatePresence(String game, String icon) {
         if (!shouldOperate) {
             clearPresence();
             closeClient();
@@ -47,12 +47,12 @@ public class DiscordRPC {
         }).start();
     }
 
-    public static void clearPresence() {
+    public void clearPresence() {
         if (rpcClient != null) rpcClient.sendRichPresence(null);
     }
 
 
-    public static void closeClient() {
+    public void closeClient() {
         if (rpcClient != null) rpcClient.close();
     }
 

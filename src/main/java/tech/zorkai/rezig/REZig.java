@@ -3,16 +3,15 @@ package tech.zorkai.rezig;
 import net.labymod.api.EventManager;
 import net.labymod.api.LabyModAddon;
 import net.labymod.settings.elements.SettingsElement;
-import tech.zorkai.rezig.listeners.IncomingPacketListener;
-import tech.zorkai.rezig.listeners.ServerJoinListener;
-import tech.zorkai.rezig.listeners.ServerMessageListener;
-import tech.zorkai.rezig.listeners.ServerQuitListener;
+import tech.zorkai.rezig.listeners.*;
+import tech.zorkai.rezig.utils.DiscordRPC;
 
 import java.util.List;
 
 public class REZig extends LabyModAddon {
 
     public boolean playingRevive = false;
+    public DiscordRPC discordRPC = new DiscordRPC();
 
     @Override
     public void onEnable() {
@@ -20,7 +19,7 @@ public class REZig extends LabyModAddon {
         eventManager.register(new ServerMessageListener(this));
         eventManager.registerOnIncomingPacket(new IncomingPacketListener(this));
         eventManager.registerOnJoin(new ServerJoinListener(this));
-        eventManager.registerOnQuit(new ServerQuitListener());
+        eventManager.registerOnQuit(new ServerQuitListener(this));
     }
 
     @Override
