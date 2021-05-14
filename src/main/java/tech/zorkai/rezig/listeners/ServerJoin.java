@@ -4,13 +4,12 @@ import net.labymod.utils.Consumer;
 import net.labymod.utils.ServerData;
 import net.minecraft.client.Minecraft;
 import tech.zorkai.rezig.REZig;
-import tech.zorkai.rezig.utils.DiscordRPC;
 
-public class ServerJoinListener implements Consumer<ServerData> {
+public class ServerJoin implements Consumer<ServerData> {
 
     private final REZig main;
 
-    public ServerJoinListener(REZig main) {
+    public ServerJoin(REZig main) {
         this.main = main;
     }
 

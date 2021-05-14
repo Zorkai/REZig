@@ -1,0 +1,96 @@
+{
+  "ranks": {
+    "Snail": {
+      "max_points": 100,
+      "display": "§7Snail"
+    },
+    "Turtle": {
+      "max_points": 1000,
+      "display": "§aTurtle"
+    },
+    "Jogger": {
+      "max_points": 3500,
+      "display": "§dJogger"
+    },
+    "Runner": {
+      "max_points": 10000,
+      "display": "§bRunner"
+    },
+    "Rabbit": {
+      "max_points": 20000,
+      "display": "§eRabbit"
+    },
+    "Kangaroo": {
+      "max_points": 35000,
+      "display": "§6Kangaroo"
+    },
+    "Speedster": {
+      "max_points": 60000,
+      "display": "§2Speedster"
+    },
+    "Blur": {
+      "max_points": 100000,
+      "display": "§9Blur"
+    },
+    "Cheetah": {
+      "max_points": 200000,
+      "display": "§5Cheetah"
+    },
+    "Flash": {
+      "max_points": 300000,
+      "display": "§c§lFlash"
+    },
+    "Speedy Gonzales": {
+      "max_points": 400000,
+      "display": "§d§lSpeedy Gonzales"
+    },
+    "Bolt": {
+      "max_points": 500000,
+      "display": "§f§lBolt"
+    },
+    "Forrest": {
+      "max_points": 600000,
+      "display": "§e§lForrest"
+    },
+    "Sonic": {
+      "max_points": 700000,
+      "display": "§9§lSonic"
+    },
+    "Falcon": {
+      "max_points": 800000,
+      "display": "§a§lFalcon"
+    },
+    "Road Runner": {
+      "max_points": 1000000,
+      "display": "§b§lRoad Runner"
+    },
+    "Basilisk": {
+      "max_points": 1200000,
+      "display": "§2§lBasilisk"
+    },
+    "Sailfish": {
+      "max_points": 1500000,
+      "display": "§5§lSailfish"
+    },
+    "Formula 1": {
+      "max_points": 2000000,
+      "display": "§6§lFormula 1"
+    },
+    "Tornado": {
+      "max_points": 2500000,
+      "display": "§7§lTornado"
+    },
+    "Jet": {
+      "max_points": 3500000,
+      "display": "§e§lJet"
+    },
+    "Blackbird": {
+      "max_points": 5000000,
+      "display": "§4§lBlackbird"
+    },
+    "Hyperspace": {
+      "max_points": 7000000,
+      "display": "§1§lHyperspace"
+    }
+  }
+}

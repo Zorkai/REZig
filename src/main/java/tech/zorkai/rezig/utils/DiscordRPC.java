@@ -38,7 +38,7 @@ public class DiscordRPC {
                 builder.setState("Playing in " + game)
                         .setDetails("play.mcrevive.net")
                         .setStartTimestamp(OffsetDateTime.now())
-                        .setLargeImage("512", "Vibin' on revive")
+                        .setLargeImage("512", "RE:Zig 1.1")
                         .setSmallImage(icon, game);
                 rpcClient.sendRichPresence(builder.build());
             } catch (Throwable e) {

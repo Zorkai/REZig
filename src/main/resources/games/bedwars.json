@@ -1,0 +1,668 @@
+{
+  "ranks": {
+    "Sleepy_5": {
+      "max_points": 50,
+      "display": "§7Sleepy 5"
+    },
+    "Sleepy_4": {
+      "max_points": 100,
+      "display": "§7Sleepy 4"
+    },
+    "Sleepy_3": {
+      "max_points": 300,
+      "display": "§7Sleepy 3"
+    },
+    "Sleepy_2": {
+      "max_points": 600,
+      "display": "§7Sleepy 2"
+    },
+    "Sleepy_1": {
+      "max_points": 1000,
+      "display": "§7Sleepy 1"
+    },
+    "Snoozer_5": {
+      "max_points": 1500,
+      "display": "§9Snoozer 5"
+    },
+    "Snoozer_4": {
+      "max_points": 2100,
+      "display": "§9Snoozer 4"
+    },
+    "Snoozer_3": {
+      "max_points": 2800,
+      "display": "§9Snoozer 3"
+    },
+    "Snoozer_2": {
+      "max_points": 3600,
+      "display": "§9Snoozer 2"
+    },
+    "Snoozer_1": {
+      "max_points": 4500,
+      "display": "§9Snoozer 1"
+    },
+    "Drowsy_5": {
+      "max_points": 5500,
+      "display": "§eDrowsy 5"
+    },
+    "Drowsy_4": {
+      "max_points": 6600,
+      "display": "§eDrowsy 4"
+    },
+    "Drowsy_3": {
+      "max_points": 7800,
+      "display": "§eDrowsy 3"
+    },
+    "Drowsy_2": {
+      "max_points": 9100,
+      "display": "§eDrowsy 2"
+    },
+    "Drowsy_1": {
+      "max_points": 10500,
+      "display": "§eDrowsy 1"
+    },
+    "Sloth_5": {
+      "max_points": 12000,
+      "display": "§6Sloth 5"
+    },
+    "Sloth_4": {
+      "max_points": 13600,
+      "display": "§6Sloth 4"
+    },
+    "Sloth_3": {
+      "max_points": 15300,
+      "display": "§6Sloth 3"
+    },
+    "Sloth_2": {
+      "max_points": 17100,
+      "display": "§6Sloth 2"
+    },
+    "Sloth_1": {
+      "max_points": 19000,
+      "display": "§6Sloth 1"
+    },
+    "Hypnotist_5": {
+      "max_points": 21000,
+      "display": "§dHypnotist 5"
+    },
+    "Hypnotist_4": {
+      "max_points": 23100,
+      "display": "§dHypnotist 4"
+    },
+    "Hypnotist_3": {
+      "max_points": 25300,
+      "display": "§dHypnotist 3"
+    },
+    "Hypnotist_2": {
+      "max_points": 27600,
+      "display": "§dHypnotist 2"
+    },
+    "Hypnotist_1": {
+      "max_points": 30000,
+      "display": "§dHypnotist 1"
+    },
+    "Siesta_5": {
+      "max_points": 32500,
+      "display": "§eSiesta 5"
+    },
+    "Siesta_4": {
+      "max_points": 35100,
+      "display": "§eSiesta 4"
+    },
+    "Siesta_3": {
+      "max_points": 37800,
+      "display": "§eSiesta 3"
+    },
+    "Siesta_2": {
+      "max_points": 40600,
+      "display": "§eSiesta 2"
+    },
+    "Siesta_1": {
+      "max_points": 43500,
+      "display": "§eSiesta 1"
+    },
+    "Dreamer_5": {
+      "max_points": 46500,
+      "display": "§bDreamer 5"
+    },
+    "Dreamer_4": {
+      "max_points": 49600,
+      "display": "§bDreamer 4"
+    },
+    "Dreamer_3": {
+      "max_points": 52800,
+      "display": "§bDreamer 3"
+    },
+    "Dreamer_2": {
+      "max_points": 56100,
+      "display": "§bDreamer 2"
+    },
+    "Dreamer_1": {
+      "max_points": 59500,
+      "display": "§bDreamer 1"
+    },
+    "Sleep_Walker_5": {
+      "max_points": 63000,
+      "display": "§cSleep Walker 5"
+    },
+    "Sleep_Walker_4": {
+      "max_points": 66600,
+      "display": "§cSleep Walker 4"
+    },
+    "Sleep_Walker_3": {
+      "max_points": 70300,
+      "display": "§cSleep Walker 3"
+    },
+    "Sleep_Walker_2": {
+      "max_points": 74100,
+      "display": "§cSleep Walker 2"
+    },
+    "Sleep_Walker_1": {
+      "max_points": 78000,
+      "display": "§cSleep Walker 1"
+    },
+    "Hibernator_5": {
+      "max_points": 82000,
+      "display": "§3Hibernator 5"
+    },
+    "Hibernator_4": {
+      "max_points": 86100,
+      "display": "§3Hibernator 4"
+    },
+    "Hibernator_3": {
+      "max_points": 90300,
+      "display": "§3Hibernator 3"
+    },
+    "Hibernator_2": {
+      "max_points": 94600,
+      "display": "§3Hibernator 2"
+    },
+    "Hibernator_1": {
+      "max_points": 99000,
+      "display": "§3Hibernator 1"
+    },
+    "Bed_Head_5": {
+      "max_points": 103500,
+      "display": "§eBed Head 5"
+    },
+    "Bed_Head_4": {
+      "max_points": 108100,
+      "display": "§eBed Head 4"
+    },
+    "Bed_Head_3": {
+      "max_points": 112800,
+      "display": "§eBed Head 3"
+    },
+    "Bed_Head_2": {
+      "max_points": 117600,
+      "display": "§eBed Head 2"
+    },
+    "Bed_Head_1": {
+      "max_points": 122500,
+      "display": "§eBed Head 1"
+    },
+    "Panda_5": {
+      "max_points": 127500,
+      "display": "§5Panda 5"
+    },
+    "Panda_4": {
+      "max_points": 132600,
+      "display": "§5Panda 4"
+    },
+    "Panda_3": {
+      "max_points": 137800,
+      "display": "§5Panda 3"
+    },
+    "Panda_2": {
+      "max_points": 143100,
+      "display": "§5Panda 2"
+    },
+    "Panda_1": {
+      "max_points": 148500,
+      "display": "§5Panda 1"
+    },
+    "Insomniac_5": {
+      "max_points": 154000,
+      "display": "§1Insomniac 5"
+    },
+    "Insomniac_4": {
+      "max_points": 159600,
+      "display": "§1Insomniac 4"
+    },
+    "Insomniac_3": {
+      "max_points": 165300,
+      "display": "§1Insomniac 3"
+    },
+    "Insomniac_2": {
+      "max_points": 171100,
+      "display": "§1Insomniac 2"
+    },
+    "Insomniac_1": {
+      "max_points": 177000,
+      "display": "§1Insomniac 1"
+    },
+    "Well_Rested_5": {
+      "max_points": 183000,
+      "display": "§aWell Rested 5"
+    },
+    "Well_Rested_4": {
+      "max_points": 189100,
+      "display": "§aWell Rested 4"
+    },
+    "Well_Rested_3": {
+      "max_points": 195300,
+      "display": "§aWell Rested 3"
+    },
+    "Well_Rested_2": {
+      "max_points": 201600,
+      "display": "§aWell Rested 2"
+    },
+    "Well_Rested_1": {
+      "max_points": 208000,
+      "display": "§aWell Rested 1"
+    },
+    "Koala_5": {
+      "max_points": 214500,
+      "display": "§3§lKoala 5"
+    },
+    "Koala_4": {
+      "max_points": 221100,
+      "display": "§3§lKoala 4"
+    },
+    "Koala_3": {
+      "max_points": 227800,
+      "display": "§3§lKoala 3"
+    },
+    "Koala_2": {
+      "max_points": 234600,
+      "display": "§3§lKoala 2"
+    },
+    "Koala_1": {
+      "max_points": 241500,
+      "display": "§3§lKoala 1"
+    },
+    "Day_Dreamer_5": {
+      "max_points": 248500,
+      "display": "§d§lDay Dreamer 5"
+    },
+    "Day_Dreamer_4": {
+      "max_points": 255600,
+      "display": "§d§lDay Dreamer 4"
+    },
+    "Day_Dreamer_3": {
+      "max_points": 262800,
+      "display": "§d§lDay Dreamer 3"
+    },
+    "Day_Dreamer_2": {
+      "max_points": 270100,
+      "display": "§d§lDay Dreamer 2"
+    },
+    "Day_Dreamer_1": {
+      "max_points": 277500,
+      "display": "§d§lDay Dreamer 1"
+    },
+    "Power_Nap_5": {
+      "max_points": 285000,
+      "display": "§c§lPower Nap 5"
+    },
+    "Power_Nap_4": {
+      "max_points": 292600,
+      "display": "§c§lPower Nap 4"
+    },
+    "Power_Nap_3": {
+      "max_points": 300300,
+      "display": "§c§lPower Nap 3"
+    },
+    "Power_Nap_2": {
+      "max_points": 308100,
+      "display": "§c§lPower Nap 2"
+    },
+    "Power_Nap_1": {
+      "max_points": 316000,
+      "display": "§c§lPower Nap 1"
+    },
+    "Bear_5": {
+      "max_points": 324000,
+      "display": "§b§lBear 5"
+    },
+    "Bear_4": {
+      "max_points": 332100,
+      "display": "§b§lBear 4"
+    },
+    "Bear_3": {
+      "max_points": 340300,
+      "display": "§b§lBear 3"
+    },
+    "Bear_2": {
+      "max_points": 348600,
+      "display": "§b§lBear 2"
+    },
+    "Bear_1": {
+      "max_points": 357000,
+      "display": "§b§lBear 1"
+    },
+    "Bed_Warrior_5": {
+      "max_points": 365500,
+      "display": "§4§lBed Warrior 5"
+    },
+    "Bed_Warrior_4": {
+      "max_points": 374100,
+      "display": "§4§lBed Warrior 4"
+    },
+    "Bed_Warrior_3": {
+      "max_points": 382800,
+      "display": "§4§lBed Warrior 3"
+    },
+    "Bed_Warrior_2": {
+      "max_points": 391600,
+      "display": "§4§lBed Warrior 2"
+    },
+    "Bed_Warrior_1": {
+      "max_points": 400500,
+      "display": "§4§lBed Warrior 1"
+    },
+    "Snorlax_5": {
+      "max_points": 409500,
+      "display": "§3§lSnorlax 5"
+    },
+    "Snorlax_4": {
+      "max_points": 418600,
+      "display": "§3§lSnorlax 4"
+    },
+    "Snorlax_3": {
+      "max_points": 427800,
+      "display": "§3§lSnorlax 3"
+    },
+    "Snorlax_2": {
+      "max_points": 437100,
+      "display": "§3§lSnorlax 2"
+    },
+    "Snorlax_1": {
+      "max_points": 446500,
+      "display": "§3§lSnorlax 1"
+    },
+    "Sandman_5": {
+      "max_points": 456000,
+      "display": "§e§lSandman 5"
+    },
+    "Sandman_4": {
+      "max_points": 465600,
+      "display": "§e§lSandman 4"
+    },
+    "Sandman_3": {
+      "max_points": 475300,
+      "display": "§e§lSandman 3"
+    },
+    "Sandman_2": {
+      "max_points": 485100,
+      "display": "§e§lSandman 2"
+    },
+    "Sandman_1": {
+      "max_points": 495000,
+      "display": "§e§lSandman 1"
+    },
+    "Lullaby_5": {
+      "max_points": 505000,
+      "display": "§d§lLullaby 5"
+    },
+    "Lullaby_4": {
+      "max_points": 515000,
+      "display": "§d§lLullaby 4"
+    },
+    "Lullaby_3": {
+      "max_points": 525300,
+      "display": "§d§lLullaby 3"
+    },
+    "Lullaby_2": {
+      "max_points": 535600,
+      "display": "§d§lLullaby 2"
+    },
+    "Lullaby_1": {
+      "max_points": 546000,
+      "display": "§d§lLullaby 1"
+    },
+    "Bed_Bug_5": {
+      "max_points": 556500,
+      "display": "§a§lBed Bug 5"
+    },
+    "Bed_Bug_4": {
+      "max_points": 567100,
+      "display": "§a§lBed Bug 4"
+    },
+    "Bed_Bug_3": {
+      "max_points": 577800,
+      "display": "§a§lBed Bug 3"
+    },
+    "Bed_Bug_2": {
+      "max_points": 588800,
+      "display": "§a§lBed Bug 2"
+    },
+    "Bed_Bug_1": {
+      "max_points": 600300,
+      "display": "§a§lBed Bug 1"
+    },
+    "Sleeping_Lion_5": {
+      "max_points": 612500,
+      "display": "§6§lSleeping Lion 5"
+    },
+    "Sleeping_Lion_4": {
+      "max_points": 625600,
+      "display": "§6§lSleeping Lion 4"
+    },
+    "Sleeping_Lion_3": {
+      "max_points": 639800,
+      "display": "§6§lSleeping Lion 3"
+    },
+    "Sleeping_Lion_2": {
+      "max_points": 655300,
+      "display": "§6§lSleeping Lion 2"
+    },
+    "Sleeping_Lion_1": {
+      "max_points": 672300,
+      "display": "§6§lSleeping Lion 1"
+    },
+    "Tranquilised_5": {
+      "max_points": 691000,
+      "display": "§b§lTranquilised 5"
+    },
+    "Tranquilised_4": {
+      "max_points": 711600,
+      "display": "§b§lTranquilised 4"
+    },
+    "Tranquilised_3": {
+      "max_points": 734300,
+      "display": "§b§lTranquilised 3"
+    },
+    "Tranquilised_2": {
+      "max_points": 759300,
+      "display": "§b§lTranquilised 2"
+    },
+    "Tranquilised_1": {
+      "max_points": 786800,
+      "display": "§b§lTranquilised 1"
+    },
+    "Sleepless_5": {
+      "max_points": 817000,
+      "display": "§5§lSleepless 5"
+    },
+    "Sleepless_4": {
+      "max_points": 850100,
+      "display": "§5§lSleepless 4"
+    },
+    "Sleepless_3": {
+      "max_points": 886300,
+      "display": "§5§lSleepless 3"
+    },
+    "Sleepless_2": {
+      "max_points": 925800,
+      "display": "§5§lSleepless 2"
+    },
+    "Sleepless_1": {
+      "max_points": 968800,
+      "display": "§5§lSleepless 1"
+    },
+    "Dream_Catcher_5": {
+      "max_points": 1015500,
+      "display": "§d§lDream Catcher 5"
+    },
+    "Dream_Catcher_4": {
+      "max_points": 1066100,
+      "display": "§d§lDream Catcher 4"
+    },
+    "Dream_Catcher_3": {
+      "max_points": 1120800,
+      "display": "§d§lDream Catcher 3"
+    },
+    "Dream_Catcher_2": {
+      "max_points": 1179800,
+      "display": "§d§lDream Catcher 2"
+    },
+    "Dream_Catcher_1": {
+      "max_points": 1243300,
+      "display": "§d§lDream Catcher 1"
+    },
+    "Morpheus_5": {
+      "max_points": 1311500,
+      "display": "§9§lMorpheus 5"
+    },
+    "Morpheus_4": {
+      "max_points": 1384600,
+      "display": "§9§lMorpheus 4"
+    },
+    "Morpheus_3": {
+      "max_points": 1462800,
+      "display": "§9§lMorpheus 3"
+    },
+    "Morpheus_2": {
+      "max_points": 1546300,
+      "display": "§9§lMorpheus 2"
+    },
+    "Morpheus_1": {
+      "max_points": 1635300,
+      "display": "§9§lMorpheus 1"
+    },
+    "Sleeping_Beauty_5": {
+      "max_points": 1730000,
+      "display": "§a§lSleeping Beauty 5"
+    },
+    "Sleeping_Beauty_4": {
+      "max_points": 1830600,
+      "display": "§a§lSleeping Beauty 4"
+    },
+    "Sleeping_Beauty_3": {
+      "max_points": 1937300,
+      "display": "§a§lSleeping Beauty 3"
+    },
+    "Sleeping_Beauty_2": {
+      "max_points": 2050300,
+      "display": "§a§lSleeping Beauty 2"
+    },
+    "Sleeping_Beauty_1": {
+      "max_points": 2169800,
+      "display": "§a§lSleeping Beauty 1"
+    },
+    "Eternal_Rest_5": {
+      "max_points": 2296000,
+      "display": "§7§lEternal Rest 5"
+    },
+    "Eternal_Rest_4": {
+      "max_points": 2429100,
+      "display": "§7§lEternal Rest 4"
+    },
+    "Eternal_Rest_3": {
+      "max_points": 2569300,
+      "display": "§7§lEternal Rest 3"
+    },
+    "Eternal_Rest_2": {
+      "max_points": 2716800,
+      "display": "§7§lEternal Rest 2"
+    },
+    "Eternal_Rest_1": {
+      "max_points": 2871800,
+      "display": "§7§lEternal Rest 1"
+    },
+    "Nightmare_5": {
+      "max_points": 3034500,
+      "display": "§c§lNightmare 5"
+    },
+    "Nightmare_4": {
+      "max_points": 3205100,
+      "display": "§c§lNightmare 4"
+    },
+    "Nightmare_3": {
+      "max_points": 3383800,
+      "display": "§c§lNightmare 3"
+    },
+    "Nightmare_2": {
+      "max_points": 3570800,
+      "display": "§c§lNightmare 2"
+    },
+    "Nightmare_1": {
+      "max_points": 3776300,
+      "display": "§c§lNightmare 1"
+    },
+    "Night_Owl_5": {
+      "max_points": 3970500,
+      "display": "§5§lNight Owl 5"
+    },
+    "Night_Owl_4": {
+      "max_points": 4183600,
+      "display": "§5§lNight Owl 4"
+    },
+    "Night_Owl_3": {
+      "max_points": 4405800,
+      "display": "§5§lNight Owl 3"
+    },
+    "Night_Owl_2": {
+      "max_points": 4637300,
+      "display": "§5§lNight Owl 2"
+    },
+    "Night_Owl_1": {
+      "max_points": 4878300,
+      "display": "§5§lNight Owl 1"
+    },
+    "Hypnos_5": {
+      "max_points": 5129000,
+      "display": "§e§lHypnos 5"
+    },
+    "Hypnos_4": {
+      "max_points": 5389600,
+      "display": "§e§lHypnos 4"
+    },
+    "Hypnos_3": {
+      "max_points": 5660300,
+      "display": "§e§lHypnos 3"
+    },
+    "Hypnos_2": {
+      "max_points": 5941300,
+      "display": "§e§lHypnos 2"
+    },
+    "Hypnos_1": {
+      "max_points": 6232800,
+      "display": "§e§lHypnos 1"
+    },
+    "Sleep_Paralysis_5": {
+      "max_points": 6535000,
+      "display": "§4§lSleep Paralysis 5"
+    },
+    "Sleep_Paralysis_4": {
+      "max_points": 6848100,
+      "display": "§4§lSleep Paralysis 4"
+    },
+    "Sleep_Paralysis_3": {
+      "max_points": 7172300,
+      "display": "§4§lSleep Paralysis 3"
+    },
+    "Sleep_Paralysis_2": {
+      "max_points": 7507800,
+      "display": "§4§lSleep Paralysis 2"
+    },
+    "Sleep_Paralysis_1": {
+      "max_points": 7854800,
+      "display": "§4§lSleep Paralysis 1"
+    },
+    "Top_Sleep_Paralysis": {
+      "max_points": 8500000,
+      "display": "§4§l§kII §4§lTop Sleep Paralysis §4§l§kII"
+    }
+  }
+}

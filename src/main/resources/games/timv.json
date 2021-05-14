@@ -1,0 +1,165 @@
+{
+  "ranks": {
+    "Civilian": {
+      "max_points": 100,
+      "display": "§7Civilian",
+      "hover": "§8(Default rank)"
+    },
+    "Inspector": {
+      "max_points": 500,
+      "display": "§3Inspector"
+    },
+    "Witness": {
+      "max_points": 750,
+      "display": "§bWitness"
+    },
+    "Scout": {
+      "max_points": 1000,
+      "display": "§dScout"
+    },
+    "Forensic": {
+      "max_points": 2000,
+      "display": "§6Forensic"
+    },
+    "Trustable": {
+      "max_points": 3500,
+      "display": "§eTrustable"
+    },
+    "Director": {
+      "max_points": 5000,
+      "display": "§aDirector"
+    },
+    "Deceiver": {
+      "max_points": 7500,
+      "display": "§cDeceiver"
+    },
+    "Tracer": {
+      "max_points": 10000,
+      "display": "§bTracer"
+    },
+    "Agent": {
+      "max_points": 15000,
+      "display": "§6Agent"
+    },
+    "Spy": {
+      "max_points": 25000,
+      "display": "§eSpy"
+    },
+    "Conspirator": {
+      "max_points": 35000,
+      "display": "§dConspirator"
+    },
+    "Eavesdropper": {
+      "max_points": 45000,
+      "display": "§3Eavesdropper"
+    },
+    "Constable": {
+      "max_points": 60000,
+      "display": "§bConstable"
+    },
+    "Officer": {
+      "max_points": 80000,
+      "display": "§e§lOfficer"
+    },
+    "Sergeant": {
+      "max_points": 100000,
+      "display": "§c§lSergeant"
+    },
+    "Commissioner": {
+      "max_points": 125000,
+      "display": "§5§lCommissioner"
+    },
+    "Undercover": {
+      "max_points": 150000,
+      "display": "§6§lUndercover"
+    },
+    "Lestrade": {
+      "max_points": 200000,
+      "display": "§1§lLestrade"
+    },
+    "Watson1": {
+      "max_points": 300000,
+      "display": "§f① §lWatson"
+    },
+    "Watson2": {
+      "max_points": 400000,
+      "display": "§f② §lWatson"
+    },
+    "Watson3": {
+      "max_points": 500000,
+      "display": "§f③ §lWatson"
+    },
+    "Watson4": {
+      "max_points": 600000,
+      "display": "§f④ §lWatson"
+    },
+    "Watson5": {
+      "max_points": 700000,
+      "display": "§f⑤ §lWatson"
+    },
+    "Watson6": {
+      "max_points": 800000,
+      "display": "§f⑥ §lWatson"
+    },
+    "Watson7": {
+      "max_points": 900000,
+      "display": "§f⑦ §lWatson"
+    },
+    "Watson8": {
+      "max_points": 1000000,
+      "display": "§f⑧ §lWatson"
+    },
+    "Watson9": {
+      "max_points": 1100000,
+      "display": "§f⑨ §lWatson"
+    },
+    "Watson10": {
+      "max_points": 1200000,
+      "display": "§f⑩ §lWatson"
+    },
+    "Watson11": {
+      "max_points": 1300000,
+      "display": "§f⑪ §lWatson"
+    },
+    "Watson12": {
+      "max_points": 1400000,
+      "display": "§f⑫ §lWatson"
+    },
+    "Watson13": {
+      "max_points": 1500000,
+      "display": "§f⑬ §lWatson"
+    },
+    "Watson14": {
+      "max_points": 1600000,
+      "display": "§f⑭ §lWatson"
+    },
+    "Watson15": {
+      "max_points": 1700000,
+      "display": "§f⑮ §lWatson"
+    },
+    "Watson16": {
+      "max_points": 1800000,
+      "display": "§f⑯ §lWatson"
+    },
+    "Watson17": {
+      "max_points": 1900000,
+      "display": "§f⑰ §lWatson"
+    },
+    "Watson18": {
+      "max_points": 2000000,
+      "display": "§f⑱ §lWatson"
+    },
+    "Watson19": {
+      "max_points": 2100000,
+      "display": "§f⑲ §lWatson"
+    },
+    "Watson20": {
+      "max_points": 2200000,
+      "display": "§f⑳ §lWatson"
+    },
+    "Watson": {
+      "max_points": 2147483647,
+      "display": "§f§lW§a§la§b§l§c§lt§d§ls§e§lo§d§ln"
+    }
+  }
+}

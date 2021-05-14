@@ -1,0 +1,113 @@
+{
+  "ranks": {
+    "First_Step": {
+      "max_points": 100,
+      "display": "§7First Step"
+    },
+    "Party_Animal": {
+      "max_points": 500,
+      "display": "§6Party Animal"
+    },
+    "Ballerina": {
+      "max_points": 1000,
+      "display": "§3Ballerina"
+    },
+    "Raver": {
+      "max_points": 2500,
+      "display": "§dRaver"
+    },
+    "Freestyler": {
+      "max_points": 5000,
+      "display": "§bFreestyler"
+    },
+    "Breakdancer": {
+      "max_points": 10000,
+      "display": "§5Breakdancer"
+    },
+    "Star": {
+      "max_points": 20000,
+      "display": "§eStar"
+    },
+    "MC_Hammer": {
+      "max_points": 35000,
+      "display": "§aMC Hammer",
+      "hover": "§7(You can't touch this..)"
+    },
+    "Carlton": {
+      "max_points": 50000,
+      "display": "§cCarlton"
+    },
+    "Destroyer": {
+      "max_points": 75000,
+      "display": "§9Destroyer"
+    },
+    "Famous": {
+      "max_points": 100000,
+      "display": "§dFamous"
+    },
+    "Dominator": {
+      "max_points": 150000,
+      "display": "§5Dominator"
+    },
+    "Fabulous": {
+      "max_points": 200000,
+      "display": "§3Fabulous"
+    },
+    "King": {
+      "max_points": 300000,
+      "display": "§6§lKing of Dance"
+    },
+    "Choreographer": {
+      "max_points": 400000,
+      "display": "§b§lChoreographer"
+    },
+    "Happy_Feet": {
+      "max_points": 525000,
+      "display": "§c§lHappy Feet"
+    },
+    "Jackson": {
+      "max_points": 650000,
+      "display": "§e§lJackson"
+    },
+    "Astaire": {
+      "max_points": 800000,
+      "display": "§9§lAstaire"
+    },
+    "Swayze": {
+      "max_points": 1000000,
+      "display": "§2§lSwayze"
+    },
+    "Legendary": {
+      "max_points": 1250000,
+      "display": "§5§lLegendary"
+    },
+    "Shakira": {
+      "max_points": 1500000,
+      "display": "§e§lShakira"
+    },
+    "Disco Diva": {
+      "max_points": 2000000,
+      "display": "§8§lDisco Diva"
+    },
+    "Flamenco": {
+      "max_points": 2500000,
+      "display": "§c§lFlamenco"
+    },
+    "Pavlova": {
+      "max_points": 3250000,
+      "display": "§4§lPavlova"
+    },
+    "ChaCha": {
+      "max_points": 4000000,
+      "display": "§2§lCha-Cha"
+    },
+    "Elvis": {
+      "max_points": 5000000,
+      "display": "§1§lElvis"
+    },
+    "Maestro": {
+      "max_points": 2147483647,
+      "display": "§r§lMaestro"
+    }
+  }
+}
